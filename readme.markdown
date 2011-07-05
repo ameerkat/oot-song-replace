@@ -7,8 +7,8 @@ it, it is available from the links below. Note that it was only modified to work
 with ABI2 games but it shouldn't be that hard to modify the source to work with
 others as long as it is HLE.
 
-[Plugin Source](http://www.ammeerayoub.com/n64/AziAudioSrc0551w_sound_replacement.zip)<br />
-[Plugin Binary (.dll)](http://www.ammeerayoub.com/n64/AziSndReplace.dll)
+[Plugin Source](http://www.ameerayoub.com/n64/AziAudioSrc0551w_sound_replacement.zip)<br />
+[Plugin Binary (.dll)](http://www.ameerayoub.com/n64/AziSndReplace.dll)
 
 #Demo Video
 http://www.youtube.com/watch?v=o_vt4kEvils
