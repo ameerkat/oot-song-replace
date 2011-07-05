@@ -64,3 +64,6 @@ have replacement music.
 Hashes of the ADPCM tables are logged to the ADPCMTable.log file, this is all that
 I have currently, you can use a third party tool such as winmerge which can be helpful determing
 the signatures. I may potentially develop extra scripts to help automate this process
+
+#Other Information
+[Relevant emutalk forum topic](http://www.emutalk.net/threads/39580-Audio-Replacement-Projects/page4)
