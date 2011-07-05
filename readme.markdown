@@ -5,7 +5,11 @@ ones. For information on how the plugin works see [the blog post](http://lowerbo
 Plugin source is not hosted on github because it is not my own, I simply modified
 it, it is available from the links below. Note that it was only modified to work
 with ABI2 games but it shouldn't be that hard to modify the source to work with
-others as long as it is HLE.
+others as long as it is HLE. Note: In order for the plugin to work you must enable
+high level emulation, to do this for project64 go to `Options->Settings->Options` and uncheck
+`Hide Advanced Settings` and click `OK` once you've done this go to 
+`Options->Configure RSP Plugin` and check `send Audio Lists to Audio Plugin`, note that
+in order to use other LLE plugins you have to uncheck this again later.
 
 [Plugin Source](http://www.ameerayoub.com/n64/AziAudioSrc0551w_sound_replacement.zip)<br />
 [Plugin Binary (.dll)](http://www.ameerayoub.com/n64/AziSndReplace.dll)
