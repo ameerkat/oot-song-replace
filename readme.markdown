@@ -9,10 +9,14 @@ others as long as it is HLE. Note: In order for the plugin to work you must enab
 high level emulation, to do this for project64 go to `Options->Settings->Options` and uncheck
 `Hide Advanced Settings` and click `OK` once you've done this go to 
 `Options->Configure RSP Plugin` and check `send Audio Lists to Audio Plugin`, note that
-in order to use other LLE plugins you have to uncheck this again later.
+in order to use other LLE plugins you have to uncheck this again later. You will also
+need the fmod dll because the plugin uses fmod to play the audio files. The `fmodex.dll`
+is placed in the same directory as your `Project64.exe` executable, _not_ in the plugin
+directory.
 
 [Plugin Source](http://www.ameerayoub.com/n64/AziAudioSrc0551w_sound_replacement.zip)<br />
 [Plugin Binary (.dll)](http://www.ameerayoub.com/n64/AziSndReplace.dll)
+[FMOD Binary (.dll)](http://www.ameerayoub.com/n64/fmodex.dll)
 
 #Demo Video
 http://www.youtube.com/watch?v=o_vt4kEvils
