@@ -1,7 +1,7 @@
 #About
 This is a project dedicated to replacing the audio in ocarina of time similar
 to how the retexture project's have replaced the textures with higher resolution
-ones. For information on how the plugin works see [link](todo_put_link_here)
+ones. For information on how the plugin works see [the blog post](http://lowerboundofawesome.posterous.com/replacing-n64-rom-music-at-runtime)
 Plugin source is not hosted on github because it is not my own, I simply modified
 it, it is available from the links below. Note that it was only modified to work
 with ABI2 games but it shouldn't be that hard to modify the source to work with
