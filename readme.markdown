@@ -15,8 +15,9 @@ is placed in the same directory as your `Project64.exe` executable, _not_ in the
 directory.
 
 [Plugin Source](http://www.ameerayoub.com/n64/AziAudioSrc0551w_sound_replacement.zip)<br />
-[Plugin Binary (.dll)](http://www.ameerayoub.com/n64/AziSndReplace.dll)
-[FMOD Binary (.dll)](http://www.ameerayoub.com/n64/fmodex.dll)
+[Plugin Binary (.dll)](http://www.ameerayoub.com/n64/AziSndReplace.dll)<br />
+[FMOD Binary (.dll)](http://www.ameerayoub.com/n64/fmodex.dll)<br />
+*Plugin Last Updated 7/5/2011*
 
 #Demo Video
 http://www.youtube.com/watch?v=o_vt4kEvils
