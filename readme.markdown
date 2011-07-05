@@ -47,7 +47,9 @@ blocking the ocarina in the title screen.
 ##songlist
 songlist is the list of adpcm table hash sequences and file names, currently there are 6 hashes
 to a signature, this must always be the case otherwise it will be loaded incorrectly, you can
-change this from the source code (SIGNATURE_BLOCK_SIZE) as long as the file matches up.
+change this from the source code (SIGNATURE_BLOCK_SIZE) as long as the file matches up. You can use
+the special code `%DEFAULT%` to allow the default music to be played. This is useful if you don't
+have replacement music.
 
 #Figuring out New Codes
 Hashes of the ADPCM tables are logged to the ADPCMTable.log file, this is all that
