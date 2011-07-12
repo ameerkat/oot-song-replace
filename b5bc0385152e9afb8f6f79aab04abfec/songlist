@@ -1,3 +1,18 @@
+/*
+ * See the readme for file format documentation
+ * The comments in this file use pseudo-doxygen type headers for each song
+ *
+ * @game The Legend of Zelda Ocarina of Time
+ * @rom_name THE LEGEND OF ZELDA
+ * @rom_region USA
+ * @rom_filename Legend of Zelda, The - Ocarina of Time (USA).n64
+ * @rom_header_hash b5bc0385152e9afb8f6f79aab04abfec
+ * @author Ameer Ayoub <ameer.ayoub@gmail.com>
+ */
+
+/*
+ * Title Theme
+ */
 ad6e93ae4f02274ab7b4fda5afa19505
 00c3a8f0862cef2fcf44c7f75ef6a586
 ad6e93ae4f02274ab7b4fda5afa19505
@@ -5,7 +20,12 @@ ad6e93ae4f02274ab7b4fda5afa19505
 ad6e93ae4f02274ab7b4fda5afa19505
 00c3a8f0862cef2fcf44c7f75ef6a586
 01_Title_Theme_Redux_v2.mp3
-		
+LOOP_NORMAL
+0	-1
+
+/*
+ * Game Select Screen & Great Fairy's Fountain
+ */
 4405fb5375d9fa359484aea77afbfdb8
 ad5ea2fa4a1dd42b64ce636ccdf59f29
 4405fb5375d9fa359484aea77afbfdb8
@@ -13,8 +33,27 @@ ad5ea2fa4a1dd42b64ce636ccdf59f29
 4405fb5375d9fa359484aea77afbfdb8
 ad5ea2fa4a1dd42b64ce636ccdf59f29
 40_Great_Fairy's_Fountain.mp3
-/* %DEFAULT% */
+LOOP_NORMAL
+0	-1
 
+/*
+ * Game Select Screen
+ * @note second code, why doesn't the first one work anymore
+ */
+3bfd1cd0a50387fff6e2b94f4086f830
+0e49f0a76f8ad2b264a4ceaa471c0d07
+3bfd1cd0a50387fff6e2b94f4086f830
+0e49f0a76f8ad2b264a4ceaa471c0d07
+3bfd1cd0a50387fff6e2b94f4086f830
+0e49f0a76f8ad2b264a4ceaa471c0d07
+40_Great_Fairy's_Fountain.mp3
+LOOP_NORMAL
+0	-1
+
+/* 
+ * House Music
+ * @note when loading a saved game or entering a house within the game
+ */
 b676e154b1575de5ec445298f16f095b
 97c698baca841fe9cd02ac255dc821d2
 b676e154b1575de5ec445298f16f095b
@@ -22,16 +61,12 @@ b676e154b1575de5ec445298f16f095b
 b676e154b1575de5ec445298f16f095b
 97c698baca841fe9cd02ac255dc821d2
 05_House_Redux.mp3
+LOOP_NORMAL
+1900	-1
 
-/* This one is a little messed up */
 /*
-ac49a01492968d1ea8c2134ac87cf094
-24c0adb76563c3f967c4084253500551
-ac49a01492968d1ea8c2134ac87cf094
-24c0adb76563c3f967c4084253500551
-ac49a01492968d1ea8c2134ac87cf094
-24c0adb76563c3f967c4084253500551
-*/
+ * Kokiri Forest
+ */
 13b640e96bee1051f5e905733dc41625
 05d498c8e5080f531581e9f36c4ad49f
 13b640e96bee1051f5e905733dc41625
@@ -39,4 +74,88 @@ ac49a01492968d1ea8c2134ac87cf094
 13b640e96bee1051f5e905733dc41625
 05d498c8e5080f531581e9f36c4ad49f
 06_Kokiri_Forest_Redux.mp3
+LOOP_NORMAL
+8700	81500
 
+/* 
+ * Start Intro Section
+ * @section begin start_intro
+ * This section is the music played during the introductory cutscenes
+ */
+
+/*
+ * Clean Select Music
+ * @note Clear the intro music shows in log as exit of select screen but this is
+ * actually triggered during the part where the castle cut scene starts and
+ * zelda on horse is chased by ganon on horse
+ */
+13b640e96bee1051f5e905733dc41625
+13b640e96bee1051f5e905733dc41625
+13b640e96bee1051f5e905733dc41625
+13b640e96bee1051f5e905733dc41625
+13b640e96bee1051f5e905733dc41625
+13b640e96bee1051f5e905733dc41625
+%DEFAULT%
+ONCE_NORMAL /* This part doesn't really matter for default */
+
+/* 
+ * Enter Ganondorf
+ * @note NOT TRIGGERING
+ * @note I think this is the ganon entry
+ */
+29f16cfab218b9b15e087394105c27c1
+13b640e96bee1051f5e905733dc41625
+6053b167f242eb4943db0faa409e4f64
+13b640e96bee1051f5e905733dc41625
+5206ab57ba94e3f7ce9686c64174cae3
+05d498c8e5080f531581e9f36c4ad49f
+02_Enter_Ganondorf.mp3
+ONCE_NORMAL
+
+/*
+ * Deku Tree Music
+ * @note NOT TRIGGERING
+ * @note this is where he is talking to navi right after the cutscene of 
+ * ganondorf chasing zelda on the horse.
+ */
+3defee1014566d27e16679f0a67154bd
+35e04d79f5dcd2594ecef13b63d73548
+13b640e96bee1051f5e905733dc41625
+3defee1014566d27e16679f0a67154bd
+35e04d79f5dcd2594ecef13b63d73548
+13b640e96bee1051f5e905733dc41625
+03_Deku_Tree_Redux.mp3
+LOOP_NORMAL
+0	-1
+
+/* 
+ * Fairy Flying Music
+ * @note working but a little late
+ */
+0b7e77fe872a6aed70cd51cbcc545261
+92f31d3980328f1779b33918db21dfc4
+0b7e77fe872a6aed70cd51cbcc545261
+92f31d3980328f1779b33918db21dfc4
+0b7e77fe872a6aed70cd51cbcc545261
+92f31d3980328f1779b33918db21dfc4
+04_Fairy_Flying_Redux_v2.mp3
+ONCE_NORMAL
+
+/*
+ * House Music
+ * @note when entering house from intro
+ */
+e58dd659c2789e6420547a51e4e796e8
+0b7e77fe872a6aed70cd51cbcc545261
+e58dd659c2789e6420547a51e4e796e8
+0b7e77fe872a6aed70cd51cbcc545261
+e58dd659c2789e6420547a51e4e796e8
+0b7e77fe872a6aed70cd51cbcc545261
+05_House_Redux.mp3
+LOOP_NORMAL
+1900	-1
+
+/*
+ * End Intro Section
+ * @section end intro_section
+ */

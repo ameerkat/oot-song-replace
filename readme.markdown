@@ -58,7 +58,17 @@ songlist is the list of adpcm table hash sequences and file names, currently the
 to a signature, this must always be the case otherwise it will be loaded incorrectly, you can
 change this from the source code (SIGNATURE_BLOCK_SIZE) as long as the file matches up. You can use
 the special code `%DEFAULT%` to allow the default music to be played. This is useful if you don't
-have replacement music.
+have replacement music. Following the filename is a play mode
+The two numbers following the playmode are the loop points, loop points
+let you control where the music get's looped allowing you to cut out intros or endings for more
+continuous playback. To leave the loop points at the start and end then use 0 and -1 for the loop
+points. 
+###playmodes
+* ONCE_NORMAL | plays the song once, without looping, plays silence until the next code is detected
+* LOOP_NORMAL [loop_start, loop_end] | plays the song in a loop
+* ONCE_REVERT | plays the song once and reverts to the previous song
+* ONCE_GOTO [song_index] | plays the song then plays song with the parameter index
+* ONCE_DEFAULT | plays the song once and goes to the default music
 
 #Figuring out New Codes
 Hashes of the ADPCM tables are logged to the ADPCMTable.log file, this is all that
